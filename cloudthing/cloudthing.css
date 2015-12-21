@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  
+  
+
+}
+img {
+  width : 50%;
+  border-radius : 25%;
+}
+
+.cloud {
+  width: 200px; height: 80px;
+  background: #fff;
+  
+  border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+  position: relative;
+    
+}
+
+#clouds {
+  padding: 100px 0;
+  background: #c9dbe9;
+  background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);  
+  background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+  background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%)
+    
+}
+.cloud:before, cloud:after {
+  content: "";
+  position: absolute; top: -15px; left: 10px;
+  background: #fff;
+  width: 100px; height: 80px;
+  border: 1px solid white;
+   
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  
+  transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+
+.cloud:after {
+  width: 120px; height: 120px;
+  top: -55px; right: auto; left: 15px;
+}
